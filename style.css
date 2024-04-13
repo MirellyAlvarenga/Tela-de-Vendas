@@ -1,0 +1,22 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width:576px) {
+    #imagens {
+        display: none;
+    }
+
+    #aside {
+        display: none;
+    }
+
+    .card {
+        margin: 0 auto;
+        align-content: center;
+        align-items: center;
+        font-weight: bolder;
+
+    }
+
+}

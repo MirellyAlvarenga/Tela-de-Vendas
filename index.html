@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exercicio 5 - Mirelly Pego Cordeiro de Alvarenga</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #40513B;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                    class="bi bi-caret-left-square" viewBox="0 0 16 16" style="color: white;">
+                    <path
+                        d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                    <path
+                        d="M10.205 12.456A.5.5 0 0 0 10.5 12V4a.5.5 0 0 0-.832-.374l-4.5 4a.5.5 0 0 0 0 .748l4.5 4a.5.5 0 0 0 .537.082" />
+                </svg>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">DECORAÇÃO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            ROUPAS
+                        </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item text-light" href="#">MULHER</a></li>
+                            <li><a class="dropdown-item text-light" href="#">HOMEM</a></li>
+                            <li><a class="dropdown-item text-light" href="#">INFANTIL</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="PESQUISAR">
+                    <input class="form-control me-2 text-dark" type="PESQUISAR" placeholder="PESQUISAR"
+                        aria-label="PESQUISAR">
+                    <button class="btn btn-outline-light text-light" type="submit">PESQUISAR</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 text-light full-height p-5" style="background-color: #40513B" id="aside">
+                <div class="mt-5 p-5">
+                    <h1 class="position-fixed">ESTELAR</h1>
+                    <h1 class="position-fixed mt-5">EMPORIUM</h1>
+                </div>
+                <div class="mt-3 p-5">
+                    <a class="text-decoration-none text-light  p-3 rounded position-fixed"
+                        style="background-color: #609966;" href="#">COLEÇÃO INVERNO</a>
+                </div>
+                <div class="p-5">
+                    <a class="text-decoration-none text-light p-3 rounded position-fixed"
+                        style="background-color:  #609966;" href="#">COLEÇÃO VERÃO</a>
+                </div>
+                <div class="p-5">
+                    <a class="text-decoration-none text-light p-3 rounded position-fixed"
+                        style="background-color:  #609966;" href="#">COLEÇÃO OUTONO</a>
+                </div>
+            </div>
+
+            <div class="container-fluid col-md-9 col-sm-12" style="background-color: #40513B;">
+                <div class="row">
+                    <div class="card col-6 mt-3 mb-3" style="width: 40rem; background-color: #9DC08B;">
+                        <img src="./img/retrato-de-modelo-elegante-em-vestido-verde-em-um-fundo-transparente-branco-desfile-de-moda_161568-13678.jpg"
+                            class="img-fluid mt-2" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title fw-bolder mt-5" style=" color:#193111;">MELHORES VENDAS</h2>
+                            <p class="card-text text-uppercase mt-4">As melhores vendas de roupas da sessão infantil
+                                na nossa promoção de BLACK FRIDAY!</p>
+                            <button class="card-button text-uppercase">Venha conferir!</button>
+                        </div>
+                    </div>
+                    <div class="col-6 mt-3 mb-3" style="width: 30rem;" id="imagens">
+                        <img src="./img/roupa-intima-feminina-de-cetim-verde-sobre-fundo-branco_972290-21325.jpg"
+                            class="img-fluid mb-4" alt="...">
+                        <img src="./img/roupa-intima-feminina-de-cetim-vermelho-em-um-fundo-branco_972290-20717.jpg"
+                            class="img-fluid" style="width: 30rem;" alt="...">
+                    </div>
+
+
+                    <div class="card mt-3" style="width: 20rem; margin-right: 5rem; background-color: #9DC08B;">
+                        <img src="./img/dondoca_com_br-vestido-curto-alca-babados-e-abertura-verde-listra-branca-img-5552-400x400.jpg"
+                            class="card-img-top mt-2" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">VESTIDO MIDI</h5>
+                            <p class="card-text">Lançamento da nova coleção de inverno de 2024 - sessão - tamanho M
+                            </p>
+                            <button class="btn text-uppercase" style="background-color: aliceblue; padding:0.5;">Venha
+                                conferir!</button>
+                        </div>
+                    </div>
+                    <div class="card mt-3" style="width: 20rem; margin-right: 5rem; background-color: #9DC08B;">
+                        <img src="./img/dondoca_com_br-vestido-midi-alfaiataria-com-botoes-e-fenda-verde-img-2814-400x400.jpg"
+                            class="card-img-top mt-2" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">VESTIDO VERÃO</h5>
+                            <p class="card-text">Lançamento da nova coleção de verão de 2024 - sessão - tamanho P</p>
+                            <button class="btn text-uppercase" style="background-color: aliceblue; padding:0.5;">Venha
+                                conferir!</button>
+                        </div>
+                    </div>
+                    <div class="card mt-3" style="width: 20rem; margin-right: 5rem; background-color: #9DC08B;">
+                        <img src="./img/dondoca_com_br-vestido-plissado-com-cinto-e-gripier-no-decote-verde-img-6119-400x400.jpg"
+                            class="card-img-top mt-2" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">VESTIDO SEXY</h5>
+                            <p class="card-text">Lançamento da nova coleção de inverno de 2024 - sessão - tamanho M</p>
+                            <button class="btn text-uppercase" style="background-color: aliceblue; padding:0.5;">Venha
+                                conferir!</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
